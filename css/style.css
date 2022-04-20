@@ -27,7 +27,7 @@
 /* || MAIN STYLES */
 body {
   font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
   background-color: var(--light-color);
 }
 
@@ -68,5 +68,9 @@ img {
 /* END MAIN STYLES */
 
 /* || UTILITIES */
-
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 1.2rem;
+}
 /* END UTILITIES */
