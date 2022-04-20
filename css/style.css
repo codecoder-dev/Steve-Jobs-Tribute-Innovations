@@ -13,14 +13,26 @@
 
 /* || VARIABLES */
 :root {
-  /* Colors */
+  /* colors */
   --primary-color: #2196f3;
   --primary-light-color: #bbdefb;
   --primary-text: #212121;
   --secondary-text: #757575;
   --divider-color: #bdbdbd;
   --light-color: #fafafa;
-  /* End Colors */
+  /* end colors */
+
+  /* border radius */
+  --border-radius: 0.2rem;
+  /* end border radius */
+
+  /* padding */
+  --padding: 1.2rem;
+  /* end padding */
+
+  /* box shadow */
+  --box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
+  /* end box shadow */
 }
 /* END VARIABLES */
 
@@ -64,6 +76,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin-bottom: 0.5rem;
+  border-radius: var(--border-radius);
 }
 /* END MAIN STYLES */
 
@@ -72,5 +86,34 @@ img {
   max-width: 1140px;
   margin: 0 auto;
   padding: 1.2rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.title h1,
+h2 {
+  color: #fff;
+}
+
+.about-card,
+.innovation-card {
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+}
+
+.innovation-card {
+  border-left: 6px solid var(--primary-light-color);
 }
 /* END UTILITIES */
