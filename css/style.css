@@ -25,7 +25,46 @@
 /* END VARIABLES */
 
 /* || MAIN STYLES */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  background-color: var(--light-color);
+}
 
+h1,
+h2,
+h3 {
+  color: var(--primary-text);
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: var(--secondary-text);
+}
+
+hr {
+  height: 1px;
+  margin: 1rem 0;
+  background-color: var(--divider-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* END MAIN STYLES */
 
 /* || UTILITIES */
