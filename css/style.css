@@ -1,0 +1,33 @@
+/* || IMPORT GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+/* END IMPORT GOOGLE FONTS */
+
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+/* END RESET */
+
+/* || VARIABLES */
+:root {
+  /* Colors */
+  --primary-color: #2196f3;
+  --primary-light-color: #bbdefb;
+  --primary-text: #212121;
+  --secondary-text: #757575;
+  --divider-color: #bdbdbd;
+  --light-color: #fafafa;
+  /* End Colors */
+}
+/* END VARIABLES */
+
+/* || MAIN STYLES */
+
+/* END MAIN STYLES */
+
+/* || UTILITIES */
+
+/* END UTILITIES */
