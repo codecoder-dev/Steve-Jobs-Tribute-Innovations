@@ -48,18 +48,14 @@ body {
 }
 
 h1,
-h2,
-h3 {
-  color: var(--primary-text);
-}
-
-h1,
 h2 {
   font-size: 1.75rem;
+  color: #fff;
 }
 
 h3 {
   font-size: 1.25rem;
+  color: var(--primary-text);
   margin-bottom: 0.5rem;
 }
 
@@ -69,7 +65,6 @@ p {
 
 a {
   color: var(--primary-color);
-  transition: 0.2s ease;
 }
 
 a:hover {
@@ -113,11 +108,6 @@ figcaption {
   border-radius: var(--border-radius);
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
-}
-
-.title h1,
-h2 {
-  color: #fff;
 }
 
 .about-card,
